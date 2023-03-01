@@ -73,3 +73,4 @@ The following improvements could be made to the application:
 - testing should be applied to the `fetch.ts` module. I ran out of time, and it wasn't apparent how to mock `https` correctly
 - the entry point `product-options.ts` should be more structured to lend itself to be tested
 - `esbuild` might have been used rather than `tsc` to improve transpilation speed and bundle the output into a single file
+- mock out `currencyToNumher.ts` properly to test the `product-options.ts` module
