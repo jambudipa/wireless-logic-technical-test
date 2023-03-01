@@ -1,5 +1,6 @@
 {
-  "name": "esbuild-test",
+  "name": "wireless-logic-technical-test",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "rm -rf dist && tsc -p tsconfig.json && node ./dist/product-options.js product-options.json"
