@@ -1,0 +1,19 @@
+{
+  "name": "esbuild-test",
+  "type": "module",
+  "scripts": {
+    "start": "rm -rf dist && tsc -p tsconfig.json && node ./dist/product-options.js product-options.json"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "jsdom": "^21.1.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "jest": "^29.4.3",
+    "prettier": "^2.8.4",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  }
+}
